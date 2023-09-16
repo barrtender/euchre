@@ -1,0 +1,13 @@
+Borrowing from:
+https://github.com/Farama-Foundation/PettingZoo/blob/master/docs/code_examples/aec_rps.py#L16
+https://github.com/Farama-Foundation/PettingZoo/blob/master/pettingzoo/classic/rlcard_envs/texas_holdem.py
+https://github.com/Farama-Foundation/PettingZoo/blob/master/pettingzoo/classic/connect_four/connect_four.py#L158
+
+
+Should be able to train with DQN later:
+https://stable-baselines3.readthedocs.io/en/master/modules/dqn.html#id1
+Or maybe with an action mask to make it less likely to do invalid moves:
+https://pettingzoo.farama.org/tutorials/sb3/connect_four/
+
+Here's an example of a colab with connect4:
+https://colab.research.google.com/drive/1HBMzF0bA5Bwf0mssLcz2-VpUsAJcMsGF?authuser=0#scrollTo=5ylZ0JnH7yc2
